@@ -5,7 +5,7 @@ class HelloFlutterApp extends StatelessWidget {
   @override
   Widget build(BuildContext _) {
     return MaterialApp(
-        title: "Hello, Flutter!",
+        title: 'Simple Layouts',
         home: Home(),
         debugShowCheckedModeBanner: false);
   }

@@ -9,7 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   cupertino_icons: ^0.1.2
 
 dev_dependencies:
@@ -17,5 +16,16 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  assets:
+    - images/pizza.png
+
+  fonts:
+    - family: Oxygen
+      fonts:
+        - asset: fonts/Oxygen-Regular.ttf
+        - asset: fonts/Oxygen-Bold.ttf
+          weight: 700
+        - asset: fonts/Oxygen-Light.ttf
+          weight: 300
 
   uses-material-design: true
